@@ -1,0 +1,17 @@
+								LOCATION LIST
+
+
+--Uygulamanın Amacı: Günlük hayatta unutmak istemediğimiz yerleri kaydetme ihtiyacı duyabiliriz. Bunlar karşılaştığımız ilgimizi 
+çeken mekanlar, merak ettiğimiz ve sonradan gitmek istediğimiz yerler, anlık olarak ihtiyacımızı gidermek için kaydetmek istediğmiz
+yerler (arabamı nereye park ettim? vs.) olabilir. Location List bu tarz ihtiyaçlarımızı karşılamak için ideal bir uygulama.
+
+
+--Uygulamanın Özellikleri: Haritadan bulunduğun konumu veya herhangi bir yeri seçerek not defterine açıklamalı şekilde 
+kaydedebilir, arkadaşlarınla paylaşabilirsin. Seçtiğiniz konumları not defterine gruplayarak kaydedebilirsiniz bu sayede
+kaydettiğiniz konumu ararken sizin için kolaylık sağlanacaktır.
+
+
+--Kimlere Hitap Eder: Uygulama her yaştan kesime hitap eder. Örneğin genç insanların gezdiği yerleri kaydetmek istemesi, yaşlı insanların
+günlük hayatta kullanacağı yeri unutmamak, kaybetmemek adına uygulamayı kullanması.
+
+ 
