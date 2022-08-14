@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "304324266719",
+    "firebase_url": "https://automobilefactory-c1ba3-default-rtdb.firebaseio.com",
+    "project_id": "automobilefactory-c1ba3",
+    "storage_bucket": "automobilefactory-c1ba3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304324266719:android:5b2439b168f19178e5376a",
+        "android_client_info": {
+          "package_name": "com.furkanbostan.automobilefactory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304324266719-l742bjptk4b8b1r3557ii1upie71002i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuQa74UsiHpYYw3Jo9FBm9eNTEU0r5vpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304324266719-l742bjptk4b8b1r3557ii1upie71002i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

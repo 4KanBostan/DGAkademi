@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
+
+
+    <ImageView
+        android:id="@+id/car_imageView"
+        android:layout_width="233dp"
+        android:layout_height="151dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/tv_Marka"
+        android:layout_width="301dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="28dp"
+        android:hint="Marka"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/car_imageView" />
+
+    <TextView
+        android:id="@+id/tv_Model"
+        android:layout_width="301dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:hint="Model"
+        app:layout_constraintEnd_toEndOf="@+id/tv_Marka"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_Marka"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Marka" />
+
+    <TextView
+        android:id="@+id/tv_Info"
+        android:layout_width="303dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="28dp"
+        android:hint="Araç Bilgisi"
+        app:layout_constraintEnd_toEndOf="@+id/tv_Model"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_Model"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Model" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
