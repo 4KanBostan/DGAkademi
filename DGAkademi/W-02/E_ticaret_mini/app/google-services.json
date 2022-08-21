@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "138870651080",
+    "project_id": "e-ticaret-mini",
+    "storage_bucket": "e-ticaret-mini.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138870651080:android:dcae6ececfbd9207df0dfd",
+        "android_client_info": {
+          "package_name": "com.furkanbostan.e_ticaret_mini"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138870651080-7kgloqkngotjshlkh7asv1183grqa6a6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO5D5TiLqhE515tji2BM3OKTCXK6LlD3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138870651080-7kgloqkngotjshlkh7asv1183grqa6a6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

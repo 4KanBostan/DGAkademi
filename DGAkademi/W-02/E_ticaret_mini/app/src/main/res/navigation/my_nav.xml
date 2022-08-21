@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/productsFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.furkanbostan.e_ticaret_mini.Fragments.Authentication.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_productsFragment"
+            app:destination="@id/productsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.furkanbostan.e_ticaret_mini.Fragments.Authentication.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productsFragment"
+        android:name="com.furkanbostan.e_ticaret_mini.Menu.ProductsFragment"
+        android:label="fragment_products"
+        tools:layout="@layout/fragment_products" >
+        <action
+            android:id="@+id/action_productsFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_productsFragment_to_shoppingCartFragment"
+            app:destination="@id/shoppingCartFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/shoppingCartFragment"
+        android:name="com.furkanbostan.e_ticaret_mini.Menu.ShoppingCartFragment"
+        android:label="fragment_shop"
+        tools:layout="@layout/fragment_shop" >
+        <argument
+            android:name="list"
+            app:argType="com.furkanbostan.e_ticaret_mini.Models.Product[]" />
+    </fragment>
+</navigation>
